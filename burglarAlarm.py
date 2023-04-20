@@ -6,9 +6,9 @@ import time
 
 # Set up the GPIO pins
 GPIO.setmode(GPIO.BOARD)
-pir = 37  # Motion sensor - these pins can change
-ldr = 35  # Light sensor - these pins can change
-led = 16  # LED - these pins can change
+pir = 37  # Motion sensor - these pins should change depending on your GPIO setup
+ldr = 35  # Light sensor - these pins should change depending on your GPIO setup
+led = 16  # LED - these pins should change depending on your GPIO setup
 
 GPIO.setup(pir, GPIO.IN)
 GPIO.setup(ldr, GPIO.IN)
